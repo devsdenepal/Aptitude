@@ -1,0 +1,43 @@
+body{
+    color:black;
+    background-image: url("wbg.png");
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    }
+    input{
+    border-color: blue;
+    border-radius:12px;
+    display:flex;
+    height: 50px;
+    }
+    input:hover{
+ 
+background-color: aquamarine;
+    }
+    #sbmt{
+        left: -50%;
+    }
+    button:hover{
+    background-color:white;
+    color:green;
+    opacity:1;
+    }
+    .back{
+        background-color: rgb(218, 224, 211);
+        border-radius: 5px;
+        width:6px;
+    }
+    .back:hover{
+        background-color: rgb(155, 160, 149);
+        border-radius: 6px;
+        width:6px;
+        opacity:1;
+    }
+    a{
+        color:green;
+        
+    }
+    a:link:visited{
+        color:green;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+    

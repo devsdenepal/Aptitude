@@ -1,0 +1,971 @@
+body {font-family: Arial, Helvetica, sans-serif;background-image:url("wall.jfif");background-repeat:no-repeat;background-position: top 190px right;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  position:relative;
+  left : 190px;
+   
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.card {
+text-align: center;
+position:relative;
+top : 150px;
+}
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+  @import url('https://fonts.googleapis.com/css2?family=Radio+Canada&family=Source+Sans+Pro:wght@400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
+body {
+  font-family: Helvetica, sans-serif;
+  color:black;
+  background-image : url("wbg.png");
+ 
+}
+button {
+background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  
+  
+  width: 280px;
+}
+
+.thulo {
+  font-size: x-large;
+  }
+  /* COLORS */
+  .pink {
+color:palevioletred;
+  }
+  .krimson {
+  color:red;
+  }
+  .seto {
+  color: white;
+  }
+  .seto {
+    color: white;
+    }
+    .fillseto {
+    background-color: white;
+      }
+  .fillkrimson {
+  background-color:red;
+  }
+  .navy {
+  color:navy
+  }
+  .fillnavy {
+  background-color:navy
+  }
+  .blue {
+  color:blue;
+  }
+  .fillblue {
+  background-color:blue;
+  }
+  .aqua {
+  color: aqua;
+  }
+  .fillaqua {
+  background-color: aqua;
+  }
+  .gold {
+  color: gold;
+  }
+  .fillgold {
+  background-color: gold;
+  }
+  .yellow {
+  color: yellow;
+  }
+  .fillyellow {
+  background-color: yellow;
+  }
+  .green {
+  color: green;
+  }
+  .fillgreen {
+  background-color: green;
+  }
+  .lightgreen {
+  color:lightgreen;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+  li :hover {
+    background-color: #00529B;
+    color: #dddddd;
+  }
+  .filllightgreen {
+  background-color:lightgreen;
+  }
+  .lightblue {
+  color: lightblue;
+  }
+  .filllightblue {
+  background-color: lightblue;
+      }
+  .grey {
+  color: grey;
+  }
+  .fillgrey {
+  background-color: grey;
+      }
+  .silver {
+  color: silver;
+  }
+  .fillsilver {
+  background-color: silver;
+      }
+  .black {
+  color: black
+  }
+.fillblack {
+background-color: black
+}
+  .center {
+  text-align: center;
+  }
+  .right {
+  text-align: right;
+  }
+  .left {
+  text-align: left;
+  }
+  .fillcenter {
+  align-content: center ;
+  align-items: center;
+  text-align: center;
+  }
+  .fillright {
+  align-content: center;
+  }
+  img{
+  border-radius: inherit;
+  }
+  .loaded {
+      animation-name: loading_fade_color; /*Shows that content is being loaded */
+      animation-iteration-count: infinite; /*Animation repeatation*/
+    }
+  /*Loading_fade animation*/
+    @keyframes loading_fade_color {
+    0%   {background-image: url("photoshop.jfif");}
+    25%  {background-image: url("photoshop2.jfif");}
+    40%  {background-image: url("image1.jpg");}
+    50% {background-image: url("image3.jpg");}
+    60% {background-image: url("image2.jpg");}
+    70% {background-image: url("image4.jpg");}
+    100% {background-image: url("image5.jpg");}
+  }
+  .animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+  .round {
+  padding: 10px;
+  border-radius: 25px;
+  }
+  .round2 {
+  padding: 10px;
+  border-radius: 50px 20px;
+  }
+  .borderimg { 
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url(border.jfif) 30 round;
+    }
+  .dottedblue {
+  border-right: 4px dotted blue;
+  }
+  .caret {
+  caret-color: red;
+  }
+  #loading {
+  cursor: wait;
+  }
+  #write_vert {
+  writing-mode: vertical-rl; 
+  }
+  *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      }
+      
+      .load {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      background: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: inherit
+      }
+      
+      .load::after {
+      content: '';
+      position: absolute;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      width: 30px;
+          height: 30px;
+          border-left: 3px solid transparent;
+          border-bottom: 3px solid transparent;
+          animation: loading1 1s ease infinite;
+          z-index: 10
+      }
+      
+      .load::before {
+          content: '';
+          position: absolute;
+          border-radius: 50%;
+          border: 3px dashed #fff;
+          width: 30px;
+          height: 30px;
+          border-left: 3px solid transparent;
+          border-bottom: 3px solid transparent;
+          animation: loading1 2s linear infinite;
+          z-index: 5
+      }
+      
+      @keyframes loading1 {
+      0% {
+      transform: rotate(0deg)
+      }
+      100% {
+      transform: rotate(360deg)
+      }
+      }
+      
+      button.active {
+      transform: scale(.85)
+      }
+      
+      button.activeLoading .loading {
+      visibility: visible;
+      opacity: 1
+      }
+      
+      button .loading {
+      opacity: 0;
+      visibility: hidden
+      }
+      a,a:hover {
+      text-decoration:none;
+      }
+      
+      .container{
+        max-width:980px
+      }
+      .section {
+        margin-top:16px!important;margin-bottom:16px!important ;
+      }
+    .down-slide{position:relative;animation:animatetop 0.6s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+    .right-slide{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+    .footer {
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         background-color: black;
+         color: white;
+         text-align: center;
+      }
+      .container > div {
+       animation:anim 0.5s;
+      }
+      @keyframes anim {
+       0%{
+        opacity:0;
+       }
+       100%{
+        opacity:1;
+       }
+      }
+      #error{
+       display:block;
+       margin:8px 0;
+       color: red;
+       font-weight:bold;
+      }
+      #sec-1 h1 {
+        overflow: hidden;
+        border-right: .15em solid orange; /* The typwriter cursor */
+       white-space: nowrap; /* Keeps the content on a single line */
+       margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      
+      animation:
+          typing 3.6s steps(30, end),
+          blink-caret .5s step-end infinite;
+      }
+      .navigation-bar-button{float:left;width:auto;border:none;display:block;outline:0}
+      .click {
+        background-color: green;
+        color :rgb(255, 255, 255);
+      }
+      
+      .click:hover {
+        background-color:rgb(22, 204, 189);
+        color: green;
+      }
+      .navigation {
+        width: fit-content;
+      }
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 90% }
+      }
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange }
+      }
+      .animate-bottom {
+      position:relative;
+      animation:animatebottom 0.4s
+    }
+    @keyframes animatebottom {
+      from{bottom:-300px;opacity:0} 
+      to{bottom:0;opacity:1}
+    }
+      .img-logo {
+       margin-right:30px;
+      }
+      .form-group {
+       margin-bottom:20px;
+      }
+      label {
+       color:#fff;
+       font-weight:500;
+      }
+      input {
+        width: min-content;
+        height: 20px;
+        outline: none;
+        border-radius: 2px;
+        padding: 0 10px;
+        border: 1px black solid;
+    }
+      .submit {
+        width:100%;
+        height:45px;
+        border:none;
+        outline:none;
+        border-radius:2px;
+        padding:0 10px;
+       }
+      input {
+       background:silver;
+       color:#333;
+      }
+      
+      @media all and (min-width: 1025px) {
+      dwnld {
+      display: none;
+      }
+      }
+    
+      .hide{
+       display:none;
+      }
+      .mb-2{
+       margin-bottom:20px;
+      }
+      .my-2{
+       margin:20px 0;
+      }
+      p{
+       margin:50px 0;
+       font-size:1.1rem;
+      }
+      .follow{
+       display:block;
+       background:#fff;
+       text-align:center;
+       color:#000;
+       font-weight:500;
+       text-transform:uppercase;
+       margin:15px 0;
+       width:100%;
+       padding:10px;
+      }
+      .logo {
+      float: left;
+      }
+      #loading {
+          position: fixed;
+          height: 100%;
+          width: 100%;
+          z-index: 999;
+          background: rgba(255,255,255,.8);
+          top: 0;
+          left: 0;
+          
+      }
+      #img {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .launch {
+      color: green;
+      }
+      .goog-te-combo {
+       color: orange;
+       border-radius: 32px;
+      }
+      .goog-logo-link {
+        opacity: 0;
+      }
+      /*Preventing text from being seleced */
+      
+      .times {
+          font-family: "Times New Roman", Times, serif;
+        }
+        
+        .auto{
+          width: auto;
+          height: auto;
+        }
+        .robot {
+          font-family: "Lucida Console", "Courier New", monospace;
+        }
+        .handwritten {
+          font-family: "Brush Script MT", cursive;
+        }
+        .fantasy {
+          font-family: Copperplate, Papyrus, fantasy;
+        }
+        p.normal {
+          font-weight: normal;
+        }
+        
+        p.light {
+          font-weight: lighter;
+        }
+        
+        p.thick {
+          font-weight: bold;
+        }
+        
+        p.thicker {
+          font-weight: 900;
+        }
+        .table {
+          font-family: Arial, Helvetica, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        .helvetica {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* .manage-card {
+            background-image:url("fdff.jpg");
+            /* size : cover; */
+            /* height : 100%;
+        } */ */
+        .table td, .table th {
+          border: 1px solid #ddd;
+          padding: 8px;
+        }
+        
+        .table tr:nth-child(even){background-color: #f2f2f2;}
+        
+        .table tr:hover {background-color: #ddd;}
+        
+        .table th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: yellow;
+          color: white;
+        }
+        .wooden {
+          background-image : url("https://images.unsplash.com/photo-1610824224972-db9878a2fe2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d29vZCUyMHRleHR1cmV8ZW58MHx8MHx8&w=1000&q=80");
+          width: 300px;
+          padding: 50px;
+          margin: 20px;
+          border-radius : 32px;
+          color : inherit;
+          font-family: Copperplate, Papyrus, fantasy;
+        }
+        .paper {
+          background-image : url("https://previews.123rf.com/images/frenta/frenta1108/frenta110800033/10224784-hintergrund-mit-indianischen-traditionellen-mustern.jpg");
+          width: 300px;
+          
+        }
+        .usual {
+            width: fit-content;
+        }
+        .card2 {
+          background-color: white;
+          padding: 15px;
+          
+          font-size: 14px;
+          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        
+        .info {
+          color: #00529B;
+          background-color: #BDE5F8;
+          background-image: url('https://wallpaperaccess.com/full/1892753.jpg');
+      }
+      .success {
+          color: #4F8A10;
+          background-color: #DFF2BF;
+          background-image: url('https://i.imgur.com/Q9BGTuy.png');
+      }
+      .info,
+  .success,
+  .warning,
+  .error,
+  .validation {
+    border: 1px solid;
+    margin: 10px auto;
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    max-width: 460px;
+  }
+  .dropdown-click,.dropdown-hover {
+  position: relative;
+  display:inline-block; 
+  cursor:pointer}
+  .dropdown-hover:hover .dropdown-content{
+  display:block
+  }
+  .dropdown-hover:first-child,.dropdown-click:hover{background-color:#ccc;color:#000}
+  .dropdown-hover:hover > .button:first-child,.dropdown-click:hover > .button:first-child{background-color:#ccc;color:#000}
+  .dropdown-content{color:#000;background-color:#fff;}
+  .button:hover{color:#000!important;background-color:#ccc!important}
+  .logo {
+  height: 85px;
+  }
+  .headline {
+    font-size: 24px;
+    font-weight: 700
+  }
+  /* STYLES COLLECTED BY GAUTAMKUMAR 
+  G.DEV/GAUTAMJI*/
+  @import url('https://fonts.googleapis.com/css2?family=Radio+Canada&family=Source+Sans+Pro:wght@400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
+body {
+  font-family: Helvetica, sans-serif;
+ 
+}
+button {
+background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  
+  
+  width: 280px;
+}
+button[type=submit]{
+  background-color: green;
+
+}
+button[type=reset]{
+  background-color: blue;
+}
+button:hover{
+  opacity:1;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:  white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sidenav a:hover {
+  
+  background-color: grey;
+}
+
+#popup {
+  display: none; /* Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  
+  padding-top: 100px; /* Location of the box */
+  left:auto;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.popup-content {
+  background-color: #fefefe;
+  margin: center;
+  padding: 20px;
+  border: 1px solid #888;
+  height: fit-content;
+  font-family: Helvetica, sans-serif;
+}
+.close {
+  color: #aaaaaa;
+  float: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border: none;
+}
+.iframe {
+  position: relative;
+  top: 0;
+  left: 10%;
+  bottom: 0;
+  right: 0;
+  width: fit-content;
+  height: full-height;
+  border: none;
+  font-family: 'Radio Canada', sans-serif;
+}
+.reveal{
+display : block;
+}
+.main {
+  margin-left: 400px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+/*
+  width: 100%;
+  height:100%
+*/
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+p{
+font-size: 15px;
+color:green;
+}
+.sidenav #hovered {
+    
+    background-color: grey;
+  }
+  
+button[type=submit]{
+  background-color: green;
+
+}
+button[type=reset]{
+  background-color: blue;
+}
+button:hover{
+  opacity:1;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:  white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sidenav a:hover {
+  
+  background-color: grey;
+}
+
+#popup {
+  display: none; /* Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  
+  padding-top: 100px; /* Location of the box */
+  left:auto;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.popup-content {
+  background-color: #fefefe;
+  margin: center;
+  padding: 20px;
+  border: 1px solid #888;
+  height: fit-content;
+  font-family: Helvetica, sans-serif;
+}
+.close {
+  color: #aaaaaa;
+  float: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border: none;
+}
+.iframe {
+  position: relative;
+  top: 0;
+  left: 10%;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+
+  border: none;
+  font-family: 'Radio Canada', sans-serif;
+}
+.reveal{
+display : block;
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+/*
+  width: 100%;
+  height:100%
+*/
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+p{
+font-size: 15px;
+color:green;
+}
+.sidenav #hovered {
+    
+    background-color: grey;
+  }

@@ -1,0 +1,165 @@
+<!-- Created by GautamKumar -->
+<title> DBMS || EGPEHS</title>
+<link rel="shortcut icon" href="http://localhost/EGPEHS/logo.ico"><link rel="stylesheet" href="index.css">
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Radio+Canada&family=Source+Sans+Pro:wght@400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
+  body {
+    font-family: Helvetica, sans-serif;
+   
+  }
+  button {
+  background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    
+    
+    width: 280px;
+  }
+  button[type=submit]{
+    background-color: green;
+  
+  }
+  button[type=reset]{
+    background-color: blue;
+  }
+  button:hover{
+    opacity:1;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:  white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .sidenav a:hover {
+    
+    background-color: grey;
+  }
+  .sidenav #hovered {
+    
+    background-color: grey;
+  }
+  
+  #popup {
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    
+    padding-top: 100px; /* Location of the box */
+    left:auto;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  /* Modal Content */
+  .popup-content {
+    background-color: #fefefe;
+    margin: center;
+    padding: 20px;
+    border: 1px solid #888;
+    height: 70%;
+    font-family: Helvetica, sans-serif;
+  }
+  .close {
+    color: #aaaaaa;
+    float: center;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border: none;
+  }
+  .iframe {
+    position: relative;
+    top: 0;
+    left: 10%;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-family: 'Radio Canada', sans-serif;
+  }
+  .reveal{
+  display : block;
+  }
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  /*
+    width: 100%;
+    height:100%
+  */
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  
+  p{
+  font-size: 15px;
+  color:green;
+  }
+  </style><script src="https://kit.fontawesome.com/1364c3c233.js" crossorigin="anonymous"></script>
+
+<div class="sidenav">
+    &nbsp;&nbsp;<img src="http://localhost/EGPEHS/logo.ico"style="width:50%;justify-item:center">
+      <a onclick='location.replace("dashboard.html")'><i class="fa-solid fa-bars-progress"></i> Dashbord</a>
+      <a onclick='location.replace("index.php")'><i class="fa-solid fa-users-line"></i> Staff Data</a>
+      <a href="#currentpage" id="hovered"><i class="fa-solid fa-user"></i>You</a>
+      <a onclick='location.replace("feedback.php")'> <i class="fa-solid fa-flag"></i> Report</a>
+      <a  onclick='location.replace("notification.php")'> <i class="fa-solid fa-bell"></i> Notifications </a>
+      <button onclick="location.replace('logout.php')" style="color:white;background-color: red;">Log Out</button>
+    </div>
+<div class="main" style="text-align:center;align-items:center"><h1 style="text-align:center;align-items:center">Administrator</h1>
+<iframe src="You.php"></iframe>

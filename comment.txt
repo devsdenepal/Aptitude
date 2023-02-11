@@ -1,0 +1,4 @@
+<?php
+$comment = fcreate("mytxt.txt");
+echo $comment;
+?>

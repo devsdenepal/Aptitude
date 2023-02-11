@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard || Aptitude</title>
+    <link rel="shortcut icon" href="http://localhost/EGPEHS/logo.ico"><link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="dashboard.css"/>
+
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/1364c3c233.js" crossorigin="anonymous"></script>
+<script>
+function showProfile() {
+ window.location.href="profile.php";
+}
+</script>
+<div class="sidenav">
+<img src="http://localhost/EGPEHS/logo.ico"style="width:50%;justify-item:center">
+  <a id="hovered"><i class="fa-solid fa-bars-progress"></i> Dashboard</a>
+  <a onclick="location.replace('index.php')"><i class="fa-solid fa-users-line"></i> Staff Data</a>
+<a onclick='location.replace("students.php")'><i class="fa-solid fa-users-line"></i> Student Data</a>
+  <a onclick='location.replace("You.html")'><i class="fa-solid fa-user"></i>You</a>
+  <a onclick='location.replace("feedback.php")'> <i class="fa-solid fa-flag"></i> Report </a>
+  <a  onclick='location.replace("notification.php")'> <i class="fa-solid fa-bell"></i> Notifications </a>
+</div>
+<div class="main" id="main">
+    <h1 style="text-align: center;"> Dashboard</h1>
+<!-- <marquee onmouseover="this.stop()" onmouseout="this.start()" scrollamount="15" loop="true"--><div class="card  times thulo "><h2 class="pink">Manage Database</h2><h3 class="black"> Create, edit, delete databases in snaps. </h3></div><div class="card  times thulo "><h2 class="navy">Live Class Support</h2><h3 class="black"> Youtube live telecast with calling & chattting feaure. </h3></div></marquee> 
+    <h6 style="text-align: center;">Client : <span style="color:green;">Evergreen Pacific English School</span></h6>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <div class="card round center"><h4 class="black">Supported by <span class="blue helvetica">Aptitude</span></h4> <a href="feedback.php">Feedback || Report</a></div>
+
+</body>
+</html>
